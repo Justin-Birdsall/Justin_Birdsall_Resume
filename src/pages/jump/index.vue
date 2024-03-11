@@ -43,7 +43,7 @@ onMounted(() => {
                 </div>
                 <button class="restart" @click="restart">
                     Restart
-               </button>
+                </button>
             </div>
         </div>
         <div class="info">
