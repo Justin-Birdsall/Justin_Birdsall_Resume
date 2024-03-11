@@ -38,7 +38,7 @@ onMounted(() => {
         <div class="mask" v-if="dialogs.final.visible">
             <div class="content">
                 <div class="score-container">
-                    <p class="title">本次得分</p>
+                    <p class="title">Game Over</p>
                     <p class="score">{{score}}</p>
                 </div>
                 <button class="restart" @click="restart">
@@ -51,10 +51,10 @@ onMounted(() => {
                 Jump
             </a>
             <a class="author" href="https://luosijie.github.io/" target="_blank">
-                Created By Jesse Luo
+                Reference lousiji @ github
             </a>
             <div class="score-gaming">
-                得分：<span class="score-current">{{score}}</span>
+                Score：<span class="score-current">{{score}}</span>
             </div>
         </div>
         <canvas/>
