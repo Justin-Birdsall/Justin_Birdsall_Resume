@@ -42,8 +42,8 @@ onMounted(() => {
                     <p class="score">{{score}}</p>
                 </div>
                 <button class="restart" @click="restart">
-                    重新开始
-                </button>
+                    Restart
+               </button>
             </div>
         </div>
         <div class="info">

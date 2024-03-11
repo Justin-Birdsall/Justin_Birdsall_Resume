@@ -20,8 +20,8 @@ const workList = [
     <div class="container">
         <div class="info">
             <img src="./assets/logo.png" alt="Three.js Examples" class="logo">
-            <a href="https://github.com/luosijie/threejs-examples" target="_blank" class="title">Three.js Example</a>
-            <a href="https://luosijie.github.io/" target="_blank" class="author">Jesse Luo</a>
+            <a href="https://github.com/Justin-Birdsall/jsthree_resume_source" target="_blank" class="title">Three.js and Blender Examples</a>
+            <a href="https://github.com/Justin-Birdsall" target="_blank" class="author">Justin Birdsall</a>
         </div>
         <div class="works">
             <div v-for="(item, index) in workList" :key="index">
